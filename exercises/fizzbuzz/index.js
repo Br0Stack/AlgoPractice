@@ -12,7 +12,7 @@
 //   4
 //   buzz
 
-function fizzBuzz(n) {
+const fizzBuzz = (n) => {
     for(let i = 1; i <= n; i++) {
         // check to see if number is multiple of both 3 and 5
         if (i % 3 === 0 && i % 5 === 0) {
